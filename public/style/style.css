@@ -1,0 +1,84 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 16px;
+}
+
+#content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.commentBox h1 {
+	text-transform: uppercase;
+	text-align: left;
+}
+
+.comment {
+	border: 1px dashed #999999;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+.comment ul {
+	padding: 0;
+	margin: 0;
+}
+
+.comment ul li {
+	float: left;
+	list-style: none;
+	color: #dedede;
+}
+
+.comment ul li:first-child {
+	margin-right: 10px;
+}
+
+.comment ul:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;	
+}
+
+.comment p {
+	text-align: left;
+	font-style: italic;
+}
+
+.commentAuthor {
+	color: hsl(220, 100%, 50%);
+}
+
+.commentList {
+	width: 100%;
+}
+
+.commentForm {
+	width: 100%;
+	position: relative;	
+	padding: 10px 0 50px 0;
+}
+
+.commentForm input {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+}
+
+.commentForm input[type=submit] {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: hsl(220, 100%, 70%);
+	color: white;
+	border: 0;
+	padding: 8px 8px;
+	font-size: 17px;
+	text-transform: uppercase;
+	width: 100px;
+}
