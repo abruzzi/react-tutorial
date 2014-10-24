@@ -2,7 +2,7 @@ source "http://ruby.taobao.org"
 
 gem 'activerecord'
 gem 'sinatra'
-gem 'rake-contrib'
+gem 'rack-contrib'
 
 group :development do
     gem 'sqlite3'
