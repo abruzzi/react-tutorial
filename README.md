@@ -1,4 +1,4 @@
-### A `real` React.js application demo
+### A `real` React.js demo application
 
 [React](http://facebook.github.io/react) is a JavaScript library for building user interfaces. It's developed and maintained by facebook team.
 
@@ -22,4 +22,4 @@ $ ruby app.rb -p 9999
 
 Then open you browser, and go to page like `http://localhost:9999/`, you should see something similar with this:
 
-[!How it looks like]()
+![How it looks like](https://github.com/abruzzi/react-tutorial/blob/master/react-comments-resized.png)
